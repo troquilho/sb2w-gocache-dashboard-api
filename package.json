@@ -1,0 +1,33 @@
+{
+  "name": "sb2w-gocache-dashboard-api",
+  "version": "0.1.0",
+  "description": "Go Cache micro servico to get information from api and storage inside a new database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sb2w-go-cache-dashboard-api"
+  },
+  "author": "Gustavo Troquilho",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "moment-range": "^4.0.2",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^5.11.19",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
