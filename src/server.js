@@ -27,4 +27,9 @@ requireDir('./models');
 
 app.use('/api', require('./routes'));
 
+cron.getDomains.start();
+cron.saveAllDomains.start();
+cron.saveInfoDomains.start();
+cron.removeExpiredTokens.start();
+
 server.listen(process.env.PORT || 3000);
